@@ -44,3 +44,15 @@ var leftovers = slicesTotal % people;
 
 //Print out the amount of leftovers for Sparky to enjoy
 console.log("Sparky got "+ leftovers +" slices of pizza.")
+
+
+
+//Calculate the average amount of money spent weekly grocery shopping for 5 weeks
+var groceries = [150, 300, 150, 395, 290]
+
+//Add the grocery costs and then divide the grocery cost by 5.
+var groceryCost = groceries[0] + groceries[1] + groceries[2] + groceries[3] + groceries[4]
+var average = groceryCost / 5
+
+//Print out average grocery cost.
+console.log("You have spent a total of $"+ groceryCost +" over 5 weeks. That is an average of $"+ average +" per week.")
