@@ -17,7 +17,6 @@ console.log("Sparky is "+ humanAge +" years old which is "+ dogAge +" in dog yea
 
 
 
-
 //Calculate how much of the pizza party-goers will get at the party
 var pizza = 10;
 var people = 25;
@@ -31,3 +30,17 @@ var perPerson = pizza * slices / people;
 
 //Print out the number of slices each person gets
 console.log("Each person ate "+ slicesTotal +" slices of pizza at the party.")
+
+
+
+//Calculate the amount of pizza will be leftover for Sparky to snack on
+var pizza = 10;
+var people = 25;
+var slices = 8;
+var slicesTotal = 80;
+
+//Use Modulo to find the remaining slices of pizza leftover
+var leftovers = slicesTotal % people;
+
+//Print out the amount of leftovers for Sparky to enjoy
+console.log("Sparky got "+ leftovers +" slices of pizza.")
